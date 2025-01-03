@@ -1,0 +1,35 @@
+body {
+    background-color: #f0e9c3;
+    color: #a09664;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #758250;
+    text-align: center;
+}
+
+h2 {
+    color: #c49466;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+#intropic {
+    border-radius: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#github, #linkd {
+    border-radius: 50%;
+}
