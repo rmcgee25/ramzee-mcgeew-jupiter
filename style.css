@@ -1,3 +1,4 @@
+/* Default System Settings */
 body {
     background-color: #f0e9c3;
     color: #a09664;
@@ -92,4 +93,36 @@ nav {
     margin-right: 30px;
 }
 
+/* Tablet Sytem Settings (768px and above) */
+/* lighter background color/darker header, smaller font size, and more white space*/ 
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: #e8e1b5;
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 40px;
+        color: #5e6e40;
+    }
+    .navbar li {
+        font-size: 25px;
+        padding-left: 15px; /*reduce padding for greater better fit */
+    }
+}
 
+/* Mobile Sytem Settings (480px and above) */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #b2ad8e; /*different color for mobile devices for variation*/
+        font-size: 14px; /*reduce font size*/
+    }
+    h1 {
+        font-size: 30px;
+        color: #5a6c3a;
+    }
+    .navbar li {
+        display: block;
+        font-size: 20px;/*reduce font size*/
+        padding-left: 10px; /*reduce padding for greater better fit */
+    }
+}
