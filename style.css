@@ -93,6 +93,28 @@ nav {
     margin-right: 30px;
 }
 
+#Skills {
+    max-width: 600px;
+}
+
+#Skills ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+#Skills li {
+    background-color: ivory;
+    font: 23px bold;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
+
+
+
 /* Tablet Sytem Settings (768px and above) */
 /* lighter background color/darker header, smaller font size, and more white space*/ 
 @media screen and (max-width: 1024px) {
