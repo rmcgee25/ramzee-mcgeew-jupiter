@@ -1,35 +1,55 @@
 /* Default System Settings */
 body {
-    background-color: #f0e9c3;
-    color: #a09664;
+    background-color: black;
+    color: ivory;
     font-weight: bold;
     font-size: 18px;
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0 30px;
+    font-family: "Jura", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
+
 section {
     margin-bottom: 50px;
     padding: 30px
+
 }
 
 h1 {
-    font-size: 50px;
-    color: #758250;
+    font-size: 90px;
+    color: #5c816c;
     text-align: center;
 }
 
+h1, h2 {
+    font-family: "Anton SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h2 {
-    color: #c49466;
-    font-size: 35px;
-    font-family: monospace;
+    color: #dc838b;
+    font-size: 45px;
 }
 
 #intropic {
-    border-radius: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 10%;
+    margin-left: 30px;
     width: 50%;
+}
+
+#aboutLayout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#aboutLayout p {
+    flex: 1;
+    margin-left: 20px;
+    padding-right: 500px;
+    font-size: 30px;
 }
 
 #github, #linkd {
@@ -46,21 +66,22 @@ nav {
 
 .navbar ul {
     list-style-type: none;
-    background-color: ivory;
+    background-color: #dc838b;
     overflow: hidden;
     margin: 0;
-    padding: 15px;
+    padding: 9px;
 }
 
 .navbar a {
-    color:#c49466;
+    color: ivory;
+    font-weight: bolder;
     text-decoration: none;
 }
 
 .navbar li {
     display: inline-block;
-    font-size: 30px;
-    padding-left: 20px;
+    font-size: 18px;
+    padding: 0 25px 0 0;
 }
 
 .navbar a:hover{
@@ -84,7 +105,7 @@ nav {
 
 .JobTitle {
     font-size: 25px;
-    color: black;
+    color: #dc838b;
 }
 
 .time {
@@ -93,16 +114,44 @@ nav {
     margin-right: 30px;
 }
 
+#Skills {
+    max-width: 600px;
+}
+
+#Skills ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 0px;
+}
+
+#Skills li {
+    background-color: #5c816c;
+    font: 30px bold;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+    align-items: center;
+    padding: 30px;
+    font-family: "Jura", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
 /* Tablet Sytem Settings (768px and above) */
 /* lighter background color/darker header, smaller font size, and more white space*/ 
 @media screen and (max-width: 1024px) {
     body {
-        background-color: #e8e1b5;
+        /*background-color: ivory;*/
         font-size: 18px;
     }
     h1 {
         font-size: 40px;
-        color: #5e6e40;
+        /*color: #5e6e40;*/
     }
     .navbar li {
         font-size: 25px;
@@ -113,12 +162,12 @@ nav {
 /* Mobile Sytem Settings (480px and above) */
 @media screen and (max-width: 480px) {
     body {
-        background-color: #b2ad8e; /*different color for mobile devices for variation*/
+        /*background-color: ivory; /*different color for mobile devices for variation*/
         font-size: 14px; /*reduce font size*/
     }
     h1 {
         font-size: 30px;
-        color: #5a6c3a;
+        /*color: #5a6c3a;*/
     }
     .navbar li {
         display: block;
