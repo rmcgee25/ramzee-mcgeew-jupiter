@@ -215,10 +215,10 @@ button:hover {
     font-weight: bold;
 }
 
-.box:hover {
+/*.box:hover {
     transform: scale(1.1); 
     box-shadow: 0 4px 12px #5a6c3a;
-  }
+  } */
 
 /* Tablet Sytem Settings (768px and above) */
 /* lighter background color/darker header, smaller font size, and more white space*/ 
