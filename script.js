@@ -53,3 +53,20 @@ messageForm.addEventListener("submit", function(event) {
     messageForm.reset();
 });
 
+fetch ('https://api.github.com/users/rmcgee25/repos')
+    .then (response => response.json())
+    .then (data => {
+        let repositories = data;
+        console.log(repositories)
+
+        const projectSection = document.getElementById('Projects');
+        const projectList = projectSection.querySelector('ul');
+
+    for (let i=0; i < repositories.length; i++) {
+        const project = document.createElement('li');
+        project.innerText = repositories[i].name;
+        project.classList.add('projectItem')
+        projectList.appendChild(project);
+    };
+    })
+    .catch(error => console.log("Error: " + error));

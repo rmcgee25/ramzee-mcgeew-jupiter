@@ -188,6 +188,38 @@ button:hover {
     background-color: #dc838b;
 }
 
+#projectsContainer {
+    color: #5c816c;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#Projects ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0; 
+}
+
+.projectItem {
+    background-color: ivory;
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.box:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 12px #5a6c3a;
+  }
+
 /* Tablet Sytem Settings (768px and above) */
 /* lighter background color/darker header, smaller font size, and more white space*/ 
 @media screen and (max-width: 1024px) {
