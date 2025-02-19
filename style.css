@@ -215,6 +215,12 @@ button:hover {
     font-weight: bold;
 }
 
+.expList li {
+    color: ivory;
+    margin-bottom: 7px;
+    
+}
+
 /*.box:hover {
     transform: scale(1.1); 
     box-shadow: 0 4px 12px #5a6c3a;
