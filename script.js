@@ -53,7 +53,7 @@ messageForm.addEventListener("submit", function(event) {
     messageForm.reset();
 });
 
-fetch ('https://api.github.com/users/rmcgee25/repos')
+/*fetch ('https://api.github.com/users/rmcgee25/repos')
     .then (response => response.json())
     .then (data => {
         let repositories = data;
@@ -69,4 +69,4 @@ fetch ('https://api.github.com/users/rmcgee25/repos')
         projectList.appendChild(project);
     };
     })
-    .catch(error => console.log("Error: " + error));
+    .catch(error => console.log("Error: " + error));*/

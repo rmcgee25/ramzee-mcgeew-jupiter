@@ -213,6 +213,18 @@ button:hover {
     font-size: 24px;
     color: black;
     font-weight: bold;
+    margin: 30px;
+}
+.projectItem a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.projectItem:hover{
+    /*color: #5c816c;*/
+    background-color: #dc838b;
 }
 
 .expList li {
